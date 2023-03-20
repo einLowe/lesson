@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тур по Гранд Каньону</title>
+
+    <link rel="shortcut icon" href="animPage/favik.png">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="navigation.css">
+    <script src="scripts/muve.js" defer></script>
+
+    <script src="libs/gsap/gsap.min.js" defer></script>
+    <script src="libs/gsap/ScrollTrigger.min.js" defer></script>
+    <script src="libs/gsap/ScrollSmoother.min.js" defer></script>
+
+    <script src="scripts/script.js" defer></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+
+    <div class="wrapper">
+
+        <div id="popup" class="popup">
+            <a href="#header" class="close__area"></a>
+            <div class="popup__body">
+                <div class="popup__content">
+                    <form class="form">
+                        <a href="#header"><span id="form__close"></span></a>
+                        <h1 class="form__title">Забронировать тур</h1>
+
+                        <div class="form__group">
+                            <input class="form__input" placeholder=" ">
+                            <label class="form__label">Имя</label>
+                        </div>
+
+                        <div class="form__group">
+                            <input class="form__input" placeholder=" ">
+                            <label class="form__label">Номер</label>
+                        </div>
+
+                        <a href="#header" id="form__close" class="form__close">Заказать тур</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="navigation">
+                <a href="#" id="header" class="menuToggle">
+                    <span></span>
+                </a>
+                <nav class="navigation_list">
+                    <ul>
+                        <li class="list">
+                            <a href="#" style="--clr:rgb(188, 225, 38);">
+                                <span class="text">Главная</span>
+                            </a>
+                        </li>
+                        <li class="list">
+                            <a href="animPage/index.html" style="--clr:rgb(135, 212, 21);">
+                                <span class="text">Поймай</span>
+                            </a>
+                        </li>
+                        <li class="list">
+                            <a href="Homework/homework.html" style="--clr:rgb(135, 212, 21);">
+                                <span class="text">Не могу</span>
+                            </a>
+                        </li>
+                        <li class="list">
+                            <a href="galleryPage/index.html" style="--clr:rgb(142, 165, 42);">
+                                <span class="text">Галлерия</span>
+                            </a>
+                        </li>
+                        <li class="list">
+                            <a href="galleryPage2/index.html" style="--clr:rgb(135, 212, 21);">
+                                <span class="text">Галлерия2</span>
+                            </a>
+                        </li>
+                
+                    </ul>
+                </nav>
+        </div>
+        
+        <div class="content">
+
+                <div class="layers">
+                    <div class="layers__header">
+                        <div class="layers_title">WELCOME</div>
+                        <div class="layers_caption"><span>to</span>GT TOUR</div>
+                    </div>
+                    <div class="layer layers__base" style="background-image: url(photosi2/base_back.png)"></div>
+                    <div class="layer layers__midle" style="background-image: url(photosi2/layer__midleV2.png)"></div>
+                    <div class="layer layers__front" style="background-image: url(photosi2/layer__frontV4.png)"></div>
+                    <div class="layer layers__midle" style="background-image: url(photosi2/layer__zaputalya.png)"></div>
+
+                </div>
+
+            <div class="main__block" style="background-image: url(photosi2/bg2.jpg);">
+                
+                <div class="container">
+
+                    <div class="price_cont">
+                        <div class="price_cont_ecs">
+                            <span>Только опытные тревел-эксперты</span>
+                        </div>
+                        <div class="price_cont_inf">
+                            <ul class="ul">
+                                <li>
+                                    <p>Негарантированные даты</p>
+                                </li>
+                                <li>
+                                    <P>Моментальное бронирование</p>
+                                </li>
+                                <li>
+                                    <p>Обкатанный маршрут</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="price_cont_price">
+                            <div class="price_cont_price_time">
+                                <p>Продолжительность путишествия 5 дней</p>
+                                <h1>132 652 &#x20bd</h1>
+                                <p id="brom">Для бронирования достаточно 100% предоплаты</p>
+                            </div>
+                        </div>
+                        <div class="price_cont_btn">
+                            <div class="btn">
+                                <a href="#popup" class="popup_link ">Заказать тур</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="info_cont">
+
+                        <div class="info__title"><h2>Гранд-Каньон, Каньон Антилопы, Бакскин-Галч, Зайон</h2>
+                        </div>
+
+                        <div class="info__text">
+                            <p><span>gg</span>Гранд-Каньон, Каньон Антилопы, Бакскин Галч, каньон Зайон… Уверены, что вы слышали эти названия. Приглашаем вас в путешествие, которое позволит вам увидеть все это своими глазами! Действительно, когда видишь такое, неизбежно задумываешься о том, кто это мог сотворить. Боги? Инопланетяне? Впрочем, геологи утверждают, что это все силы природы. Посмотрим и решим для себя сами. В этом путешествии вы увидите: Гранд-Каньон, Каньон Антилопы, Подкову “Horseshoe bend”, Buckskin Gulch, каньон Зайон, озеро Пауэлл и многое другое!</p>
+                            <div class="luli">
+                                <ul>
+                                    <li>
+                                        <span class="yes"><ion-icon name="checkmark-sharp"></ion-icon></span>
+                                        <p>В этом путешествии вы увидите: </p>
+                                    </li>
+                                    <li>
+                                        <span class="yes"><ion-icon name="checkmark-sharp"></ion-icon></span>
+                                        <p>Гранд Каньон,</p>
+                                    </li>
+                                    <li>
+                                        <span class="yes"><ion-icon name="checkmark-sharp"></ion-icon></span>
+                                        <p>Долину Монументов,</p>
+                                    </li>
+                                    <li>
+                                        <span class="yes"><ion-icon name="checkmark-sharp"></ion-icon></span>
+                                        <p>Подкову “Horseshoe bend”,</p>
+                                    </li>
+                                    <li>
+                                        <span class="yes"><ion-icon name="checkmark-sharp"></ion-icon></span>
+                                        <p>Каньон Бакскин Галч и многое другое</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+                
+    </div>
+</body>
+</html>

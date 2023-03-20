@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+}
+
+.board  {
+    width: 100vw;
+    height: 100vh;
+    background-color: #A66600;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transition: .1s;
+    box-sizing: border-box;
+} 
+
+.btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transition: .1s;
+    width: 70px;
+    height: 70px;
+    font-size: 15px;
+    border-radius: 100%;
+    cursor: url('dart.cur'), pointer;
+    border: none;
+    outline: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    box-shadow: 0 0 20px #033242a0;
+    background-color: #06799F;
+    box-sizing: border-box;
+}

@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: rubik_f;
+    src: url(../fonts/Rubik-Medium.woff2);
+}
+
+@font-face {
+    font-family: releway_f;
+    src: url(../fonts/raleway-v22-cyrillic-300.woff2);
+}
+
+body {
+    background-image: url(../galleryPage/gallery/foroForGallery3.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    width: 300px;
+    height: 220px;
+    border-radius: 10px;
+    padding: 32px;
+    color: #00000000;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    border: 1px solid orangered;
+    background-color: transparent;
+    transition: all .5s ease 0s;
+    box-shadow: 0 0 15px #000000;
+    margin: 20px;
+    backdrop-filter: blur(10px);
+}
+
+.form__input {
+    word-wrap: break-word;
+    word-break: break-all;
+    max-height: none;
+}
+
+.form__input {
+    font-family: sans-serif;
+    letter-spacing: 1px; 
+    font-size: 16px;
+    text-decoration: none;
+}
+
+
+.form__group {
+    position: relative;
+    margin-bottom: 32px;
+}
+
+.form__label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color:#4a4a4a;
+    transition: .3s;
+    cursor: text;
+}
+
+.form__input {
+    width: 100%;
+    padding: 0 0 10px 0;
+    border: none;
+    border-bottom: 1px solid #e0e0e0;
+    background-color: transparent;
+    outline: none;
+    transition: .3s;
+    color: #e0e0e0;
+}
+
+.form__input:focus {
+    border-bottom: 1px solid #1a73a8;
+}
+
+.form__close:hover,
+.form__close:focus {
+    background-color: rgba(0, 131, 240, 0.7);
+}
+
+.form__input:focus ~ .form__label,
+.form__input:not(:placeholder-shown) ~ .form__label {
+    top: -18px;
+    font-size: 12px;
+    color: #e0e0e0;
+}
+
+.form__input:hover {
+    overflow-x: scroll;
+}
+
+.btn {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #0071f0;
+    cursor: pointer;
+    outline: none;
+    transition: .3s;
+}
+
+textarea {
+    resize: none;
+}
+
+.comment-div {
+    background-color: #0071f0;
+}
+
+.hidden {
+    display: none;
+}
+

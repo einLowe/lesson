@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="homework.css">
+    <link rel="shortcut icon" href="../animPage/favik.png">
+
+    <link rel="stylesheet" href="../navigation.css">
+    <script src="../scripts/muve.js" defer></script>
+    
+    <title>Ну, домашка</title>
+</head>
+<body>
+
+    <div class="navigation">
+        <a href="#" id="header" class="menuToggle">
+            <span></span>
+        </a>
+        <nav class="navigation_list">
+            <ul>
+                <li class="list">
+                    <a href="../index.html" style="--clr:rgb(188, 225, 38);">
+                        <span class="text">Главная</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="../animPage/index.html" style="--clr:rgb(135, 212, 21);">
+                        <span class="text">Поймай</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="#" style="--clr:rgb(135, 212, 21);">
+                        <span class="text">Не могу</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="../galleryPage/index.html" style="--clr:rgb(142, 165, 42);">
+                        <span class="text">Галлерия</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="../galleryPage2/index.html" style="--clr:rgb(135, 212, 21);">
+                        <span class="text">Галлерия2</span>
+                    </a>
+                </li>
+        
+            </ul>
+        </nav>
+</div>
+
+    <div class="conteiner">
+
+        <div class="content">
+
+            <div class="form-content">
+                <form>
+
+                    <div class="form__group">
+                        <input type="name" class="form__input" id="comment-name" placeholder=" ">
+                        <label for="comment-name" class="form__label">Имя</label>
+                    </div>
+
+                    <div class="form__group">
+                        <input type="name" class="form__input" id="comment-body" placeholder=" ">
+                        <label for="comment-body" class="form__label">Комментарий</label>
+                    </div>
+
+                    <div class="form__group text-right">
+                        <button type="submit" id="comment-add" class="btn btn-primary">Клац</button>
+                    </div>
+
+                </form>
+            </div>
+
+            <div class="comments">
+                <div id="comment-field" class="comment-field"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="homework.js" ></script>
+</body>
+</html>
